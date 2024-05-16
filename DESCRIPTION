@@ -1,0 +1,11 @@
+Package: s20xROSA
+Type: Package
+Title: s20x = ROSA EDITION
+Version: 0.1.0
+Author: Brandan Rosa
+Maintainer: <brandanrosa22@gmail.com>
+Description: Produces CIs for differences of proportions of ONE-WAY Tables.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
