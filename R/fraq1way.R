@@ -1,3 +1,19 @@
+#' fraq1way
+#'
+#' CI for Differences
+#'
+#' @param counts num
+#' @param hypothprob probs
+#' @param conf.level alpha
+#' @param addCIs T/F
+#' @param digits round
+#' @param arrowwid yes
+#' @param estimated you got it
+#'
+#' @return a named list
+#' @export
+#'
+#' @examples \dontrun{fraq1way(imp)}
 fraq1way = function(counts, hypothprob, conf.level = 0.95, addCIs = TRUE, digits = 4, arrowwid = 0.1, estimated = 0){
   varname = deparse(substitute(counts))
   if (length(dim(counts)) > 1)
